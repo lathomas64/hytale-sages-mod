@@ -22,7 +22,7 @@ public class SagesPlugin extends JavaPlugin {
     @Override
     protected void setup() {
         //config.save();
-        this.getCommandRegistry().registerCommand(new DebugCommand("spawn", "testing a spawn"));
+        this.getCommandRegistry().registerCommand(new DebugCommand("newSage", "testing a spawn"));
         // if (getConfig().get().isEnabledWelcomeMessage()) {
         //     this.getEventRegistry().registerGlobal(PlayerReadyEvent.class, SageEvent::onPlayerReady);
         // }
